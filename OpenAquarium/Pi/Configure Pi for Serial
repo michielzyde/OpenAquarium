@@ -1,4 +1,0 @@
-sudo systemctl disable serial-getty@ttyAMA0.service
-nano /boot/cmdline.txt -> zet dingen in commentaar (zie description)
-apt-get install minicom
-minicom -b 115200 -o -D /dev/ttyACM0
