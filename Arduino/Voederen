@@ -1,0 +1,19 @@
+#include "OpenAquarium.h"
+#include "Wire.h"
+DateTime now;
+
+void setup(){
+  Serial.begin(115200);
+  OpenAquarium.init();
+}
+
+void loop(){
+  
+  now =OpenAquarium.getTime();
+  OpenAquarium.printTime(now);
+    	   
+  if (now.hour() == 12 && now.minute() == 12){ //niet gelijk aan de computertijd?
+  OpenAquarium.feedfish(); 
+  }
+
+}
