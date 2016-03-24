@@ -1,0 +1,19 @@
+#include "OpenAquarium.h"
+#include "Wire.h"
+float temperature;
+
+void setup() {
+  OpenAquarium.init();   //Initialize
+  Serial.begin(115200);
+}
+
+void loop() {
+
+  temperature = OpenAquarium.readtemperature(); //Read the sensor
+  
+  Serial.print("Temperature: ");
+  Serial.print(temperature);
+  Serial.println("'C");
+  delay(2000); //Wait 2 seconds
+
+}
