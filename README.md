@@ -5,28 +5,28 @@ Omschrijving Project: Met behulp van een Arduino bordje en Raspberry Pi moeten w
 #Technologieën
 
 ##1.	ARDUINO
-o	Arduino is een opensource-computerplatform dat is opgebouwd rond de ATmega168 -microcontroller van Atmel en het softwareontwikkelplatform Processing. Dit platform is gemaakt voor mensen die geïnteresseerd  zijn in het maken en ontwerpen van slimme en creatieve objecten die kunnen reageren op hun omgeving. Met Arduino is het mogelijk apparaten en objecten te creëren die reageren op hun omgeving door middel van digitale en analoge inputsignalen. Op basis van deze input kan een Arduinoschakeling autonome act...(line truncated)...
+1.	Arduino is een opensource-computerplatform dat is opgebouwd rond de ATmega168 -microcontroller van Atmel en het softwareontwikkelplatform Processing. Dit platform is gemaakt voor mensen die geïnteresseerd  zijn in het maken en ontwerpen van slimme en creatieve objecten die kunnen reageren op hun omgeving. Met Arduino is het mogelijk apparaten en objecten te creëren die reageren op hun omgeving door middel van digitale en analoge inputsignalen. Op basis van deze input kan een Arduinoschakeling autonome act...(line truncated)...
 
-###o	Voordelen: 
-	Codevoorbeelden beschikbaar, zo heb je een gedacht hoe je eraan moet beginnen!
-	Ready to use, gewoon inpluggen in de USB poort en je kan beginnen programmeren!
-	Geen moeilijke codetaal
-	Communicatie mogelijk met andere devices bv. Raspberry Pi
-	…
+###	Voordelen: 
+1.Codevoorbeelden beschikbaar, zo heb je een gedacht hoe je eraan moet beginnen!
+2.Ready to use, gewoon inpluggen in de USB poort en je kan beginnen programmeren!
+3.	Geen moeilijke codetaal
+4.	Communicatie mogelijk met andere devices bv. Raspberry Pi
+5.	…
 
-###o	Nadelen: 
-	Kostprijs is hoog
-	…
+### Nadelen: 
+1.	Kostprijs is hoog
+2. …
 
 ##2.	RASPBERRY PI
 o	De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM-processor die tegen een minimale prijs worden vervaardigd en verkocht. De Raspberry Pi werd ontwikkeld aan deUniversiteit van Cambridge en was bedoeld voor educatieve doeleinden. Er zijn verschillende modellen en versies uitgebracht. De hardware van de verschillende versies van de Raspberry Pi kenmerkt zich door een open structuur die lijkt op de open structuur van de eerste IBM Personal Computers. De aanwezigheid van de GPIO...(line truncated)...
 
-###o	Voordelen
-	Kostprijs is redelijk laag 
-	Communicatie met andere devices zoals de Arduino Controller!
+###	Voordelen
+1.	Kostprijs is redelijk laag 
+2.	Communicatie met andere devices zoals de Arduino Controller!
 
-###o	Nadelen
-	Geen ondersteuning voor x86 OS
+###	Nadelen
+1.	Geen ondersteuning voor x86 OS
 
 
 
