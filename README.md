@@ -37,9 +37,9 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 4.	Verslag opstellen: Tiziano Colpaert & Michiel Zyde
 5. Opzetten Webserver: Tiziano Colpaert 	 
 6.	Github project aanmaken & structuur indeling: Michiel Zyde 	
-**7.	Aanmaken interface: Tiziano Colpaert 	BIZZY**
-**8.	Info Arduino op de webserver weergeven: Tiziano Colpaert 	BIZZY**
+7.	**Aanmaken interface: Tiziano Colpaert 	BIZZY**
+8.	**Info Arduino op de webserver weergeven: Tiziano Colpaert 	BIZZY**
 9.	Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde 	
-**10. Communicatie tussen de Arduino en Pi 	TO DO**
-**11. Werkende interface & besturing ervan 	TO DO**
+10. **Communicatie tussen de Arduino en Pi 	TO DO**
+11. **Werkende interface & besturing ervan 	TO DO**
 12. Verslag opstellen: Tiziano Colpaert & Michiel Zyde	 UNDER CONSTRUCTION
