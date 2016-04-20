@@ -38,4 +38,4 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 9.	Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde 	
 10. **Communicatie tussen de Arduino en Pi 	TO DO**
 11. **Werkende interface & besturing ervan 	TO DO**
-12. Verslag opstellen: Tiziano Colpaert & Michiel Zyde	 UNDER CONSTRUCTION
+
