@@ -18,8 +18,8 @@ Arduino is een opensource-computerplatform dat is opgebouwd rond de ATmega168 -m
 1.	Kostprijs is hoog
 2. …
 
-##2.	RASPBERRY PI
-	De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM-processor die tegen een minimale prijs worden vervaardigd en verkocht. De Raspberry Pi werd ontwikkeld aan deUniversiteit van Cambridge en was bedoeld voor educatieve doeleinden. Er zijn verschillende modellen en versies uitgebracht. De hardware van de verschillende versies van de Raspberry Pi kenmerkt zich door een open structuur die lijkt op de open structuur van de eerste IBM Personal Computers. De aanwezigheid van de GPIO...(line truncated)...
+##2.	RASPBERRY PI	
+De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM-processor die tegen een minimale prijs worden vervaardigd en verkocht. De Raspberry Pi werd ontwikkeld aan deUniversiteit van Cambridge en was bedoeld voor educatieve doeleinden. Er zijn verschillende modellen en versies uitgebracht. De hardware van de verschillende versies van de Raspberry Pi kenmerkt zich door een open structuur die lijkt op de open structuur van de eerste IBM Personal Computers. De aanwezigheid van de GPIO...(line truncated)...
 
 ###	Voordelen
 1.	Kostprijs is redelijk laag 
