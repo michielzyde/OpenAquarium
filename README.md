@@ -1,6 +1,6 @@
 # OpenAquarium
 
-Welkom op ons project. Wij zijn Michiel Zyde en Tiziano Colpaert, tweedejaars studenten New Media and Communication Technology aan Howest Kortrijk, die met behulp van een Arduino bordje en Raspberry Pi via een interface een Aquarium zullen gaan aansturen. Zo moet het mogelijk zijn om de leds aan of uit te leggen, temperatuur regelen, feeder van de visjes in te stellen op bepaalde tijdstippen etc. Het zal dus de bedoeling zijn om de Pi te laten communiceren met de Arduino en een webserver te laten draaien op de Pi en hierop onze interface aan te gaan maken om zo alle zaken van het aquarium te regelen!
+Welkom op ons project. Wij zijn Michiel Zyde en Tiziano Colpaert, tweedejaars studenten New Media and Communication Technology aan Howest Kortrijk, die met behulp van een Arduino bordje en Raspberry Pi via een interface een Aquarium zullen gaan aansturen. Zo moet het mogelijk zijn om de leds aan of uit te zetten, temperatuur regelen, feeder van de visjes in te stellen op bepaalde tijdstippen etc. Het zal dus de bedoeling zijn om de Pi te laten communiceren met de Arduino en een webserver te laten draaien op de Pi en hierop onze interface aan te gaan maken om zo alle zaken van het aquarium te regelen!
 
 #Technologieën
 
@@ -31,11 +31,9 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 2.	Github project aanmaken & structuur indeling: Michiel Zyde
 3.	Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde
 4.	Verslag opstellen: Tiziano Colpaert & Michiel Zyde
-5. Opzetten Webserver: Tiziano Colpaert 	 
-6.	Github project aanmaken & structuur indeling: Michiel Zyde 	
-7.	**Aanmaken interface: Tiziano Colpaert 	BIZZY**
-8.	**Info Arduino op de webserver weergeven: Tiziano Colpaert 	BIZZY**
-9.	Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde 	
-10. **Communicatie tussen de Arduino en Pi 	TO DO**
-11. **Werkende interface & besturing ervan 	TO DO**
+5.  Opzetten Webserver: Tiziano Colpaert 	 
+6.	**Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert 	BIZZY**
+7.	Info Arduino op de webserver weergeven: Tiziano Colpaert
+8.  Communicatie tussen de Arduino en Pi: Tiziano Colpaert & Michiel Zyde
+9.  **Werkende interface & besturing ervan 	TO DO**
 
