@@ -27,12 +27,12 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 1.	Geen ondersteuning voor x86 OS
 
 #Taakverdeling:
-Github project aanmaken & structuur indeling: Michiel Zyde
-Verslag opstellen: Tiziano Colpaert & Michiel Zyde
-Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde
-Opzetten Webserver: Tiziano Colpaert
-Communicatie tussen de Arduino en Pi: Tiziano Colpaert
-Info Arduino op de webserver weergeven: Tiziano Colpaert
-**Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert 	BUSSY**
-**Werkende interface & besturing ervan 	TO DO**
+1.  Github project aanmaken & structuur indeling: Michiel Zyde
+2.  Verslag opstellen: Tiziano Colpaert & Michiel Zyde
+3.  Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde
+4.  Opzetten Webserver: Tiziano Colpaert
+5.  Communicatie tussen de Arduino en Pi: Tiziano Colpaert
+6.  Info Arduino op de webserver weergeven: Tiziano Colpaert
+7.  **Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert 	BUSSY**
+8.  **Werkende interface & besturing ervan 	TO DO**
 
