@@ -1,4 +1,25 @@
-sudo systemctl disable serial-getty@ttyAMA0.service
-nano /boot/cmdline.txt -> zet dingen in commentaar (zie description)
-apt-get install minicom
-minicom -b 115200 -o -D /dev/ttyACM0
+Om er voor te zorgen dat het Arduino bordje kan communiceren met de Raspberry Pi, moeten we eerst een sketch runnen op de Arduino die om de x aantal seconden serieel iets print.
+Daarna sluiten we de Arduino via USB aan op de Pi. om op de Pi serieel dingen van de Arduino te kunnen uitlezen hebben we pySerial nodig.
+
+Instructies voor het installeren van pySerial
+1. Download pySerial op je laptop: http://sourceforge.net/projects/pyserial/files/pyserial/2.5/
+2. Unzip de tar.gz
+3. Upload de pySerial folder met SFTP naar een temp folder op de Pi
+4. Maak verbinding met de Pi via SSH (op je laptop)
+5. Navigeer naar de temp folder en installeer pySerial (sudo python setup.py install)
+
+Eenmaal pySerial geïnstalleerd is moeten we nog 2 zaken doen vooraleer we kunnen gebruik maken van de van de serieële poorten
+
+1. sudo usermod -a -G dialout pi (geeft serial access aan de gebruiker)
+2. Voeg ' KERNEL=="ttyACM0", SYMLINK+="ttyS7" ' toe aan /etc/udev/rules.d/ (om de USB connectie te kunnen gebruiken/zien)
+
+Nu output Arduino de hele tijd om de x aantal seconden serieele data. Dus nu stellen we pySerial op om deze data uit te lezen.
+
+Instructies voor het uitlezen van seriele data op de Pi
+1. Type 'Python' + enter
+2. Type 'import serial'
+3. Type 'ser = serial.Serial(‘/dev/ttyACM0’, 9600)' (geef de seriele variabele een goede naam zoals ser, en stel de juiste baudrate in)
+4. Type 'while 1 :' + enter
+5. Type 'ser.readline()' (nu zal de Pi de heletijd de data van de Arduino uitlezen)
+
+Nu heb je eigenlijk serieele communicatie tussen beide apparaten.
