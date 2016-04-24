@@ -28,7 +28,7 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 
 #Taakverdeling:
 1.  Github project aanmaken & structuur indeling: Michiel Zyde
-2.  Verslag opstellen: Tiziano Colpaert & Michiel Zyde
+2.  Verslag opstellen: Michiel Zyde
 3.  Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde
 4.  Opzetten Webserver: Tiziano Colpaert
 5.  Communicatie tussen de Arduino en Pi: Tiziano Colpaert
