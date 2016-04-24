@@ -1,5 +1,7 @@
-Om er voor te zorgen dat het Arduino bordje kan communiceren met de Raspberry Pi, moeten we eerst een sketch runnen op de Arduino die om de x aantal seconden serieel iets print.
-Daarna sluiten we de Arduino via USB aan op de Pi. om op de Pi serieel dingen van de Arduino te kunnen uitlezen hebben we pySerial nodig.
+Om er voor te zorgen dat het Arduino bordje kan communiceren met de Raspberry Pi, 
+moeten we eerst een sketch runnen op de Arduino die om de x aantal seconden serieel iets print.
+Daarna sluiten we de Arduino via USB aan op de Pi. 
+om op de Pi serieel dingen van de Arduino te kunnen uitlezen hebben we pySerial nodig.
 
 Instructies voor het installeren van pySerial
 1. Download pySerial op je laptop: http://sourceforge.net/projects/pyserial/files/pyserial/2.5/
