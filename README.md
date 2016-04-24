@@ -26,14 +26,13 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 ###	Nadelen
 1.	Geen ondersteuning voor x86 OS
 
-#Taakverdeling: 
-1.	Opzetten Webserver: Tiziano Colpaert
-2.	Github project aanmaken & structuur indeling: Michiel Zyde
-3.	Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde
-4.	Verslag opstellen: Tiziano Colpaert & Michiel Zyde
-5.  Opzetten Webserver: Tiziano Colpaert 	 
-6.	**Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert 	BIZZY**
-7.	Info Arduino op de webserver weergeven: Tiziano Colpaert
-8.  Communicatie tussen de Arduino en Pi: Tiziano Colpaert & Michiel Zyde
-9.  **Werkende interface & besturing ervan 	TO DO**
+#Taakverdeling:
+Github project aanmaken & structuur indeling: Michiel Zyde
+Verslag opstellen: Tiziano Colpaert & Michiel Zyde
+Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde
+Opzetten Webserver: Tiziano Colpaert
+Communicatie tussen de Arduino en Pi: Tiziano Colpaert
+Info Arduino op de webserver weergeven: Tiziano Colpaert
+**Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert 	BUSSY**
+**Werkende interface & besturing ervan 	TO DO**
 
