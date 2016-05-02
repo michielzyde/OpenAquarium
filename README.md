@@ -33,6 +33,6 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 4.  Opzetten Webserver: Tiziano Colpaert
 5.  Communicatie tussen de Arduino en Pi: Tiziano Colpaert
 6.  Info Arduino op de webserver weergeven: Tiziano Colpaert
-7.  **Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert 	BUSSY**
-8.  **Werkende interface & besturing ervan: 	TO DO Michiel Zyde & Tiziano Colpaert**
+7.  Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert
+8.  Werkende interface & besturing ervan: Michiel Zyde & Tiziano Colpaert
 
