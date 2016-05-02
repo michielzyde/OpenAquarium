@@ -1,0 +1,6 @@
+o	Type ‘apt-get install apache2’
+o	Type ‘usermod –a –G dialout www-data’
+o	In de sites-enabled folder zit er een config file die de apache server configureert, deze heeft enkele aanpassingen nodig en deze zijn hier te vinden:
+o	http://pastebin.com/vLkikT2m
+o	Type ‘a2enmod wsgi’
+o	Type ‘/etc/init.d/apache2’ restart
