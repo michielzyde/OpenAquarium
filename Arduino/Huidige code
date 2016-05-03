@@ -1,0 +1,40 @@
+#include "OpenAquarium.h"
+#include "Wire.h"
+DateTime now;
+float temperature;
+char msg=' ';
+
+// int incomingbyte;
+
+void setup(){
+  Serial.begin(9600);
+  OpenAquarium.init();
+}
+
+void loop(){
+ 
+ 
+ 
+ 
+  temperature = OpenAquarium.readtemperature(); //Read the sensor
+  
+  
+  Serial.println(temperature);
+  delay(5000);
+  //While data is sent over serial assign it to the msg
+  while (Serial.available()>0){ 
+     
+ 
+    msg=Serial.read();
+  }
+  
+  if (msg=='F') { 
+    
+    
+    OpenAquarium.feedfish();  // voeder de vissen
+            
+  
+    Serial.print("visjes gevoederd\n");
+    msg=' ';
+  }
+  
