@@ -26,13 +26,16 @@ De Raspberry Pi is de naam van diverse singleboardcomputers gebaseerd op een ARM
 ###	Nadelen
 1.	Geen ondersteuning voor x86 OS
 
-#Taakverdeling:
-1.  Github project aanmaken & structuur indeling: Michiel Zyde
-2.  Verslag opstellen: Michiel Zyde
-3.  Arduino mogelijkheden testen (feeder, lights, temperature,..): Michiel Zyde
-4.  Opzetten Webserver: Tiziano Colpaert
-5.  Communicatie tussen de Arduino en Pi: Tiziano Colpaert
-6.  Info Arduino op de webserver weergeven: Tiziano Colpaert
-7.  Aanmaken interface & gegevens implementeren met python: Tiziano Colpaert
-8.  Werkende interface & besturing ervan: Michiel Zyde & Tiziano Colpaert
+##3. OPEN AQUARIUM 
+
+Naast het Arduino bordje en de Pi maken we ook gebruik van een uitbreidingsmodule, deze module heet ‘OpenAquarium’ en kan geplaatst worden op een standaard Arduino bordje. Met deze uitbreiding kun je bijvoorbeeld de temperatuur van een aquarium uitlezen, lampen van het aquarium aansturen etc. Ook is het nog steeds mogelijk om zaken te programmeren voor de onderliggende Arduino Uno.
+
+### Voordelen
+1. Automatische controle over aquarium.
+2. Gemakkelijk aan te sluiten op Arduino.
+
+### Nadelen
+1. Kostprijs is redelijk hoog.
+2. Zelf interface & functies programmeren.
+
 
